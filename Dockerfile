@@ -2,4 +2,3 @@ FROM fluent/fluentd:edge
 
 USER root
 RUN fluent-gem install fluent-plugin-rabbitmq
-USER fluent
